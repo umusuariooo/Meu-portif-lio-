@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MV Cars Photography. Fotografia automotiva em São Paulo por Marcus Vinicius. Ensaios privados, showrooms e eventos.">
+  <meta name="theme-color" content="#f3f1e9">
+  <title>MV Cars Photography | Fotografia automotiva em São Paulo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="pular" href="#inicio">Pular para o conteúdo</a>
+  <header class="topo">
+    <div class="limite topo-conteudo">
+      <a class="marca" href="#inicio" aria-label="MV Cars Photography, início">
+        <span class="marca-simbolo" aria-hidden="true">MV</span>
+        <span class="marca-nome" aria-hidden="true">CARS<span>PHOTOGRAPHY</span></span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#video">Gatti</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+      <a class="botao botao-contorno topo-contato" href="#contato">Contato <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="capa limite" aria-labelledby="titulo">
+      <div class="capa-texto">
+        <div>
+          <p class="rotulo"><span class="ponto"></span> Fotografia automotiva em São Paulo</p>
+          <h1 id="titulo">Carros em<br>outro <em>ângulo.</em></h1>
+        </div>
+        <div class="capa-acoes">
+          <p>Ensaios privados, fotos para lojas e cobertura de eventos. Do detalhe da carroceria ao carro em movimento.</p>
+          <a class="botao botao-escuro" href="#galeria">Ver trabalhos <span aria-hidden="true">↘</span></a>
+        </div>
+      </div>
+      <figure class="capa-foto">
+        <div class="capa-midia" id="fotos-destaque">
+          <img src="fotos/capa-gt3.jpg" alt="Porsche 911 GT3 roxo visto de lado em uma rua arborizada" data-titulo="Porsche 911 GT3" fetchpriority="high">
+          <img src="fotos/mclaren-senna.jpg" alt="McLaren Senna amarela em frente a uma loja" data-titulo="McLaren Senna" loading="lazy" hidden>
+          <img src="fotos/citroen-ds3.jpg" alt="Citroën DS3 preto em movimento" data-titulo="Citroën DS3 em movimento" loading="lazy" hidden>
+        </div>
+        <figcaption>
+          <div class="capa-legenda" aria-live="polite" aria-atomic="true">
+            <strong id="legenda-destaque">Porsche 911 GT3</strong>
+            <span>Fotografia de Marcus Vinicius</span>
+          </div>
+          <div class="capa-controles" aria-label="Fotos em destaque" role="group" hidden>
+            <span class="capa-indice" aria-hidden="true">01 / 03</span>
+            <button type="button" class="controle" aria-label="Destaque anterior" aria-controls="fotos-destaque">←</button>
+            <button type="button" class="controle" aria-label="Próximo destaque" aria-controls="fotos-destaque">→</button>
+          </div>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="limite projeto-gatti" id="video" aria-labelledby="titulo-video">
+      <div class="video-destaque">
+        <div class="video-texto">
+          <p class="rotulo"><span class="ponto"></span> Osasco, São Paulo</p>
+          <h2 id="titulo-video">Gatti Veículos</h2>
+          <p>No bairro Bela Vista, em Osasco, a Gatti reúne carros premium, esportivos e superesportivos em seu showroom.</p>
+          <p>Durante a visita, gravei e editei um vídeo do Audi RS6 e fotografei outros carros da loja. Nas fotos, explorei os reflexos na carroceria, o contraste das lanternas e os detalhes do interior.</p>
+          <a class="link-seta" href="https://gattiveiculos.com.br/pages/nossa-empresa">Conhecer a Gatti <span aria-hidden="true">↗</span></a>
+        </div>
+        <figure class="video-gatti">
+          <video controls playsinline preload="metadata" poster="fotos/rs6-gatti-capa.jpg" width="478" height="850" aria-label="Vídeo do Audi RS6 na Gatti">
+            <source src="videos/rs6-gatti.mp4" type="video/mp4">
+            <a href="videos/rs6-gatti.mp4">Abrir o vídeo do Audi RS6</a>
+          </video>
+          <figcaption>Audi RS6 na Gatti</figcaption>
+        </figure>
+      </div>
+
+      <section class="fotos-gatti" aria-labelledby="titulo-fotos-gatti">
+        <h3 id="titulo-fotos-gatti">Fotos na Gatti</h3>
+        <div class="galeria galeria-gatti">
+          <button class="foto" type="button">
+            <span class="foto-imagem"><img src="fotos/gatti-rolls-royce.jpg" alt="Rolls-Royce preto visto de frente, com os faróis acesos, do lado de fora da loja" width="1024" height="1536" loading="lazy"></span>
+            <span class="foto-legenda"><strong>Rolls-Royce</strong><span class="foto-abrir" aria-hidden="true">↗</span></span>
+          </button>
+          <button class="foto" type="button">
+            <span class="foto-imagem"><img src="fotos/gatti-bmw-lateral.jpg" alt="Parte traseira da lateral de uma BMW preta, com destaque para a roda e a lanterna" width="1024" height="1536" loading="lazy"></span>
+            <span class="foto-legenda"><strong>BMW · Vista lateral</strong><span class="foto-abrir" aria-hidden="true">↗</span></span>
+          </button>
+          <button class="foto" type="button">
+            <span class="foto-imagem"><img src="fotos/gatti-bmw-interior.jpg" alt="Volante, painel digital e bancos azuis no interior de uma BMW" width="1024" height="1536" loading="lazy"></span>
+            <span class="foto-legenda"><strong>BMW · Interior</strong><span class="foto-abrir" aria-hidden="true">↗</span></span>
+          </button>
+          <button class="foto" type="button">
+            <span class="foto-imagem"><img src="fotos/gatti-lamborghini.jpg" alt="Lamborghini branca com portas levantadas e interior vermelho" width="853" height="1280" loading="lazy"></span>
+            <span class="foto-legenda"><strong>Lamborghini</strong><span class="foto-abrir" aria-hidden="true">↗</span></span>
+          </button>
+          <button class="foto" type="button">
+            <span class="foto-imagem"><img src="fotos/gatti-bmw-traseira.jpg" alt="BMW preta vista de trás, com lanternas acesas e quatro saídas de escapamento" width="1024" height="1536" loading="lazy"></span>
+            <span class="foto-legenda"><strong>BMW · Vista traseira</strong><span class="foto-abrir" aria-hidden="true">↗</span></span>
+          </button>
+        </div>
+      </section>
+    </section>
+
+    <section class="secao limite" id="galeria" aria-labelledby="titulo-galeria">
+      <header class="cabecalho-secao">
+        <h2 id="titulo-galeria">Galeria</h2>
+        <p>Retratos de carros, cenas de eventos e fotografias em movimento.</p>
+      </header>
+      <div class="barra-galeria">
+        <div class="filtros" role="group" aria-label="Filtrar fotografias">
+          <button type="button" data-filtro="todas" aria-pressed="true">Todas</button>
+          <button type="button" data-filtro="editorial" aria-pressed="false">Retratos</button>
+          <button type="button" data-filtro="movimento" aria-pressed="false">Em movimento</button>
+          <button type="button" data-filtro="showroom" aria-pressed="false">Showrooms</button>
+          <button type="button" data-filtro="eventos" aria-pressed="false">Eventos</button>
+        </div>
+        <p class="contagem" id="contagem" aria-live="polite">13 fotos</p>
+      </div>
+      <div class="galeria">
+          <button class="foto" type="button" data-categoria="editorial">
+            <span class="foto-imagem"><img src="fotos/porsche-cabriolet.jpg" alt="Porsche 911 Turbo Cabriolet azul com interior laranja" style="object-position: 50% 51%" loading="lazy"></span>
+            <span class="foto-legenda"><span><strong>Porsche 911 Turbo Cabriolet</strong><small>Retratos</small></span><span class="foto-abrir" aria-hidden="true">↗</span></span>
+          </button>
+          <button class="foto" type="button" data-categoria="movimento">
+            <span class="foto-imagem"><img src="fotos/citroen-ds3.jpg" alt="Citroën DS3 preto em movimento" loading="lazy"></span>
+            <span class="foto-legenda"><span><strong>Citroën DS3</strong><small>Em movimento</small></span><span class="foto-abrir" aria-hidden="true">↗</span></span>
+          </button>
+          <button class="foto" type="button" data-categoria="showroom">
+            <span class="foto-imagem"><img src="fotos/porsche-turbo-s.jpg" alt="Porsche 911 Turbo S vermelho no showroom" loading="lazy"></span>
+            <span class="foto-legenda"><span><strong>Porsche 911 Turbo S</strong><small>Showroom</small></span><span class="foto-abrir" aria-hidden="true">↗</span></span>
+          </button>
+          <button class="foto" type="button" data-categoria="eventos">
+            <span class="foto-imagem"><img src="fotos/mclaren-evento.jpg" alt="McLaren laranja em um evento automotivo" loading="lazy"></span>
+            <span class="foto-legenda"><span><strong>McLaren</strong><small>Evento</small></span><span class="foto-abrir" aria-hidden="true">↗</span></span>
+          </button>
+          <button class="foto" type="button" data-categoria="editorial">
+            <span class="foto-imagem"><img src="fotos/mclaren-senna.jpg" alt="McLaren Senna amarela em frente a uma loja" style="object-position: 50% 55%" loading="lazy"></span>
+            <span class="foto-legenda"><span><strong>McLaren Senna</strong><small>Retratos</small></span><span class="foto-abrir" aria-hidden="true">↗</span></span>
+          </button>
+          <button class="foto" type="button" data-categoria="showroom">
+            <span class="foto-imagem"><img src="fotos/mclaren-showroom.jpg" alt="McLaren laranja com portas abertas no showroom" loading="lazy"></span>
+            <span class="foto-legenda"><span><strong>McLaren no showroom</strong><small>Showroom</small></span><span class="foto-abrir" aria-hidden="true">↗</span></span>
+          </button>
+          <button class="foto" type="button" data-categoria="movimento">
+            <span class="foto-imagem"><img src="fotos/uno-e-ds3.jpg" alt="Fiat Uno amarelo e Citroën DS3 em movimento" loading="lazy"></span>
+            <span class="foto-legenda"><span><strong>Fiat Uno e Citroën DS3</strong><small>Em movimento</small></span><span class="foto-abrir" aria-hidden="true">↗</span></span>
+          </button>
+          <button class="foto" type="button" data-categoria="editorial">
+            <span class="foto-imagem"><img src="fotos/senna-noite.jpg" alt="McLaren Senna com portas abertas em cena noturna" loading="lazy"></span>
+            <span class="foto-legenda"><span><strong>Senna à noite</strong><small>Retratos</small></span><span class="foto-abrir" aria-hidden="true">↗</span></span>
+          </button>
+          <button class="foto" type="button" data-categoria="showroom">
+            <span class="foto-imagem"><img src="fotos/gt3-showroom.jpg" alt="Porsche 911 GT3 cinza em uma concessionária" style="object-position: 50% 53%" loading="lazy"></span>
+            <span class="foto-legenda"><span><strong>Porsche 911 GT3</strong><small>Showroom</small></span><span class="foto-abrir" aria-hidden="true">↗</span></span>
+          </button>
+          <button class="foto" type="button" data-categoria="editorial">
+            <span class="foto-imagem"><img src="fotos/audi-rs7.jpg" alt="Audi RS7 preto" loading="lazy"></span>
+            <span class="foto-legenda"><span><strong>Audi RS7</strong><small>Retratos</small></span><span class="foto-abrir" aria-hidden="true">↗</span></span>
+          </button>
+          <button class="foto" type="button" data-categoria="editorial">
+            <span class="foto-imagem"><img src="fotos/audi-rs2.jpg" alt="Audi RS2 Avant vermelha" style="object-position: 50% 53%" loading="lazy"></span>
+            <span class="foto-legenda"><span><strong>Audi RS2 Avant</strong><small>Retratos</small></span><span class="foto-abrir" aria-hidden="true">↗</span></span>
+          </button>
+          <button class="foto" type="button" data-categoria="editorial">
+            <span class="foto-imagem"><img src="fotos/bmw-m5.jpg" alt="BMW M5 E34 preto" loading="lazy"></span>
+            <span class="foto-legenda"><span><strong>BMW M5 E34</strong><small>Retratos</small></span><span class="foto-abrir" aria-hidden="true">↗</span></span>
+          </button>
+          <button class="foto" type="button" data-categoria="editorial">
+            <span class="foto-imagem"><img src="fotos/civic-type-r.jpg" alt="Honda Civic Type R azul em um posto de combustível" loading="lazy"></span>
+            <span class="foto-legenda"><span><strong>Honda Civic Type R</strong><small>Retratos</small></span><span class="foto-abrir" aria-hidden="true">↗</span></span>
+          </button>
+      </div>
+    </section>
+
+    <section class="secao servicos" id="servicos" aria-labelledby="titulo-servicos">
+      <div class="limite">
+        <header class="cabecalho-secao">
+          <h2 id="titulo-servicos">Serviços</h2>
+          <p>Planejamos o local, o horário e o estilo das fotos de acordo com o projeto.</p>
+        </header>
+        <div class="servicos-lista">
+          <article>
+            <h3>Ensaios privados</h3>
+            <p>Uma sessão dedicada ao seu carro, com retratos, detalhes e fotos em movimento.</p>
+          </article>
+          <article>
+            <h3>Fotos para lojas</h3>
+            <p>Imagens de estoque e veículos em destaque para anúncios, redes sociais e materiais da loja.</p>
+          </article>
+          <article>
+            <h3>Cobertura de eventos</h3>
+            <p>Registro de encontros, exposições e lançamentos, dos carros ao público e aos bastidores.</p>
+          </article>
+        </div>
+        <div class="processo">
+          <h3>Como funciona</h3>
+          <ol>
+            <li><strong>Briefing</strong><span>Você conta qual é o carro e a ideia.</span></li>
+            <li><strong>Planejamento</strong><span>Combinamos local, horário e estilo.</span></li>
+            <li><strong>Sessão</strong><span>Fotografo os ângulos e detalhes escolhidos.</span></li>
+            <li><strong>Entrega</strong><span>Você recebe as fotos editadas e prontas para usar.</span></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao limite sobre" id="sobre" aria-labelledby="titulo-sobre">
+      <img src="fotos/marcus-vinicius.jpg" alt="Marcus Vinicius fotografando uma Lamborghini Revuelto roxa" loading="lazy">
+      <div class="sobre-texto">
+        <p class="rotulo"><span class="ponto"></span> Por trás da câmera</p>
+        <h2 id="titulo-sobre">Marcus<br>Vinicius</h2>
+        <p>Sou de São Paulo e fotografo carros. Gosto de observar o que dá personalidade a cada modelo e usar a luz, o cenário e o enquadramento para mostrar esses detalhes.</p>
+        <a class="link-seta" href="https://www.instagram.com/mvcarsphotography/">@mvcarsphotography <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="contato" id="contato" aria-labelledby="titulo-contato">
+      <div class="limite contato-conteudo">
+        <div>
+          <p class="rotulo">Orçamentos e parcerias</p>
+          <h2 id="titulo-contato">Vamos fotografar<br>o seu carro?</h2>
+        </div>
+        <div class="contato-acoes">
+          <a class="botao botao-escuro" href="https://wa.me/5511975164343">Chamar no WhatsApp <span aria-hidden="true">↗</span></a>
+          <a class="link-seta" href="mailto:mbv2004bo@gmail.com">Enviar e-mail <span aria-hidden="true">↗</span></a>
+          <a class="link-seta" href="https://www.instagram.com/mvcarsphotography/">Instagram <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="limite rodape">
+    <p>© 2026 Marcus Vinicius · MV Cars Photography</p>
+    <a href="#inicio">Voltar ao topo <span aria-hidden="true">↑</span></a>
+  </footer>
+
+  <dialog class="visualizador" aria-labelledby="legenda">
+    <div class="visualizador-conteudo">
+      <form method="dialog">
+        <button class="controle fechar" aria-label="Fechar foto" autofocus>×</button>
+      </form>
+      <img alt="">
+      <div class="visualizador-rodape">
+        <p id="legenda" aria-live="polite"></p>
+        <div class="visualizador-acoes">
+          <button type="button" class="controle" id="anterior" aria-label="Foto anterior">←</button>
+          <button type="button" class="controle" id="proxima" aria-label="Próxima foto">→</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>
